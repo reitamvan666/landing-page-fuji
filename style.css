@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Aguafina+Script&family=Source+Sans+Pro&display=swap");
+
+body {
+  overflow-x: hidden;
+  font-family: "Aboreto", cursive;
+}
+
+.heading {
+  background-size: cover;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  height: 4rem;
+  width: 99%;
+  align-items: center;
+  box-shadow: 2px 7px 4px 0px rgba(207, 117, 117, 0.2);
+}
+.title {
+  font-size: 1.5em;
+}
+.title:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+.heading ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading ul li a {
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+  margin: 2rem;
+}
+
+.heading ul li a:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+.information {
+  text-align: center;
+  font-size: 0.6em;
+}
+p {
+  padding: 0.5rem;
+  text-indent: 4rem;
+  margin: 1rem 1.5rem;
+  text-align: justify;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.centre {
+  display: block;
+  text-align: center;
+}
+
+.heading.whenActive {
+  box-shadow: 2px 7px 4px 0px rgb(41, 39, 39);
+  background-color: black;
+  color: white;
+}
+.heading.whenActive ul li a {
+  color: white;
+}
+
+.heading.whenActive ul li a:hover {
+  color: rgb(73, 73, 206);
+}
+
+img {
+  width: 1200px;
+  justify-content: center;
+  margin-top: 6rem;
+}
